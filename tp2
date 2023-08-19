@@ -1,20 +1,24 @@
 function ventaArticulos(precio){
 if (precio<=1000){
+        console.log("No hay descuento")
         resultado1=precio*parseFloat(1);
         return resultado1
     }
 
 else if (precio>1000&precio<=3000){
+        console.log("Descuento de 10%")
         resultado2=precio-parseFloat(precio*0.1);
         return resultado2
     }
 
 else if (precio>3000&precio<=5000){
+        console.log("Descuento de 15%")
         resultado3=precio-parseFloat(precio*0.15);
         return resultado3
     }
 
 else{
+    console.log("Descuento de 20%")
     resultado4=precio-parseFloat(precio*0.2);
     return resultado4
 }
