@@ -1,0 +1,25 @@
+function ventaArticulos(precio){
+if (precio<=1000){
+        resultado1=precio*parseFloat(1);
+        return resultado1
+    }
+
+else if (precio>1000&precio<3000){
+        resultado2=precio-parseFloat(precio*0.1);
+        return resultado2
+    }
+
+else if (precio>3000&precio<5000){
+        resultado3=precio-parseFloat(precio*0.15);
+        return resultado3
+    }
+
+else{
+    resultado4=precio-parseFloat(precio*0.2);
+    return resultado4
+}
+    }
+
+let precio= prompt("Ingresar precio del producto: ");
+let calcularPrecio= ventaArticulos(precio);
+console.log("El precio final es: "+calcularPrecio);
