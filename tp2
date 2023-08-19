@@ -4,12 +4,12 @@ if (precio<=1000){
         return resultado1
     }
 
-else if (precio>1000&precio<3000){
+else if (precio>1000&precio<=3000){
         resultado2=precio-parseFloat(precio*0.1);
         return resultado2
     }
 
-else if (precio>3000&precio<5000){
+else if (precio>3000&precio<=5000){
         resultado3=precio-parseFloat(precio*0.15);
         return resultado3
     }
@@ -23,3 +23,8 @@ else{
 let precio= prompt("Ingresar precio del producto: ");
 let calcularPrecio= ventaArticulos(precio);
 console.log("El precio final es: "+calcularPrecio);
+while(calcularPrecio>=0){
+let precio= prompt("Ingresar precio del producto: ");
+let calcularPrecio= ventaArticulos(precio);
+console.log("El precio final es: "+calcularPrecio);
+}
