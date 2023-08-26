@@ -68,3 +68,51 @@ let precio= prompt("Ingresar precio del producto: ");
 let calcularPrecio= ventaArticulos(precio);
 console.log("El precio final es: "+calcularPrecio);
 }
+
+/*function Calcular4(precio){
+let resultado1=precio/4
+let resultado2=(2/100)*resultado1
+let resultado3=resultado1+resultado2
+return resultado3
+}
+function Calcular6(precio){
+let resultado1=precio/6
+let resultado2=(3/100)*resultado1
+let resultado3=resultado1+resultado2
+return resultado3
+}
+function Calcular8(precio){
+let resultado1=precio/8
+let resultado2=(4/100)*resultado1
+let resultado3=resultado1+resultado2
+return resultado3   
+}
+function Calcular12(precio){
+let resultado1=precio/12
+let resultado2=(5/100)*resultado1
+let resultado3=resultado1+resultado2
+return resultado3    
+}
+let precio=prompt("Ingrese el precio del producto: ")
+let cuotas=prompt("Ingrese las cuotas (4,6,8,12): ")
+
+if(cuotas==4){
+    let precioFinal1=Calcular4(precio)
+    console.log("El precio final es: "+precioFinal1)
+    
+}
+if(cuotas==6){
+    let precioFinal2=Calcular6(precio)
+    console.log("El precio final es: "+precioFinal2)
+    
+}
+if(cuotas==8){
+    let precioFinal3=Calcular8(precio)
+    console.log("El precio final es: "+precioFinal3)
+    
+}
+if(cuotas==12){
+    let precioFinal4=Calcular12(precio)
+    console.log("El precio final es: "+precioFinal4)
+}
+*/
