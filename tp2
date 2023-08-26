@@ -1,3 +1,39 @@
+/*Etapa 1*/
+
+/*function calcularPerimetro(radio){
+    const pi = 3.1416;
+let resultado = 2*pi*radio;
+return resultado
+}
+let radioCirculo= parseFloat(prompt("Ingresar radio del circulo: "));
+    let perimetroCirculo= calcularPerimetro(radioCirculo);
+    document.write("El area del circulo es: "+ perimetroCirculo);
+*/
+
+/*function calcularHipotenusa(catetoA,catetoB){
+let hipotenusa=(catetoA*catetoA+catetoB*catetoB);
+let resultado=Math.sqrt(hipotenusa);
+return resultado
+}
+let lado1= parseFloat(prompt("Ingresar lado1 triangulo: "));
+let lado2= parseFloat(prompt("Ingresar lado2 triangulo: "));
+let hip= calcularHipotenusa(lado1,lado2);
+console.log("El area del triangulo es: "+hip);
+*/
+
+/*function calcularDescuento(precio,descuento){
+let resultado1=((descuento/100)*precio)
+let resultado2=precio-resultado1
+return resultado2
+}
+let precio= parseFloat(prompt("Ingresar precio: "));
+let descuento= parseFloat(prompt("Ingresar descuento: "));
+let precioFinal= calcularDescuento(precio,descuento);
+document.write("El precio final del producto es: "+precioFinal);
+*/
+
+
+
 function ventaArticulos(precio){
 if (precio<=1000){
         console.log("No hay descuento")
